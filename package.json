@@ -2,8 +2,10 @@
   "name": "1dv610-workshop1",
   "version": "1.0.0",
   "description": "Repo for the first workshop in the course 1dv610.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node src/js/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
