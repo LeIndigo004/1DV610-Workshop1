@@ -25,8 +25,11 @@ export class GuessNumber {
       output: process.stdout
     })
 
-    while (!this.#isGameOver) {
-      input.question('Guess a number:', function (number) {
+    console.log('TEST')
+
+    // while (!this.#isGameOver) {
+      input.question('Guess a number: ', (number) => {
+        console.log('You selected the number: ' + number)
       /*  if (typeof value === 'number') {
           console.log('Write a number. Try again!')
           input.close()
@@ -36,6 +39,6 @@ export class GuessNumber {
         }
         input.close()
       })
-    }
+    // }
   }
 }
